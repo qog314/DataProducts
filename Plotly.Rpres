@@ -1,0 +1,18 @@
+Plotly
+========================================================
+author: Rachel C
+date: May 31, 2021
+autosize: true
+
+Plot of cars data
+========================================================
+
+```{r echo=FALSE, message=FALSE}
+library(plotly)
+library(crosstalk)
+
+fig <- plot_ly(mtcars, x=~cyl, y=~mpg, color=~disp)
+htmlwidgets::saveWidget(fig, "fig.html")
+
+```
+<iframe height="800", width="1500" id="igraph" scrolling="no" seamless="seamless" src="./fig.html" ></iframe>
