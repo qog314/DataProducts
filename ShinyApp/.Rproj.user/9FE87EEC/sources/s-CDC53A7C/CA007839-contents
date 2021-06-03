@@ -1,0 +1,11 @@
+name: shinyapp
+title:
+username:
+account: qog314
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4225611
+bundleId: 4675142
+url: https://qog314.shinyapps.io/shinyapp/
+when: 1622759414.54376
+lastSyncTime: 1622759414.54377
